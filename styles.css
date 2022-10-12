@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    
+    background-image: url(./fotos1/cenourinha\ 2.jpg);
+    background-repeat: repeat;
+    background-color: #e0cfc0fd;
+    max-width: 38%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #39393A;   
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;   
+}
+
+div {
+    background-color:rgba(233, 228, 224, 0.815);
+    border-radius: 40px;
+    margin-bottom: 40px;
+    box-shadow:0px 0px 20px black;
+
+}
+
+/*header{
+    text-align: center;
+}
+*/
+
+figure {
+    margin-top: 50px;
+    
+}
+img {
+    border-radius: 60%;
+    max-height: 300px;
+    max-width: 100%;
+    box-shadow:0px 0px 20px black;
+}
+li,p {
+    line-height: 16px;
+    list-style-position: inside;
+    margin-top: 10px;
+    
+}
+
+h1,h2,h3 {
+    color: #1B1B1B;
+    margin-top: 20px;
+}
+h1{ 
+    line-height: 28px;
+}
+h2,h3{
+    line-height: 20px;
+}
+
+    
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;  
+    padding-top: 80px;
+    margin-bottom: 30px;
+    color: black;
+    
+}
+footer a {
+    margin-top: 10px;
+}
+p,figcaption {
+    line-height:12px;
+}
+
+
